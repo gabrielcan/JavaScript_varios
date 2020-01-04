@@ -61,7 +61,7 @@ consultarPrecioProducto(nombre){
 }
 
 const product1= new Producto();
-let arrayProducto=[].push(product1);
+let arrayProducto=[].push(new Producto('cerveza','20','bebible'));
 product1.agregarProductos();
 console.log(product1);
 product1.agregarProductos();
