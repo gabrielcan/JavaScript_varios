@@ -1,0 +1,74 @@
+.menu__cont_1{
+    margin: 20px;
+  
+}
+.menu__cont_2{
+    background-image: url(/img/menu__fondo.jpg);
+    height: 800px;
+    align-content: center;
+}
+
+.menu__btn{
+    height: 50px;
+    margin-top: 13px !important;
+
+}
+
+.ejer__btn{
+    height: 50px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.input__num{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+}
+
+.label__input{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 20px;
+    background: #0000006b;
+}
+.img__logo{
+    background: transparent;
+}
+
+.cont__img{
+    text-align: center;
+}
+.fondo_dado{
+  background: url(/img/img_dados2.JPG);
+    
+}
+
+
+li{
+    list-style: none ;
+    font-size: 25px;
+   
+}
+#principal{
+    align-content: center;
+    display: flex;
+}
+#ingreso{
+    margin-right: 10px; 
+}
+#nuevo_calculo{
+    display: none;
+}
+#dados{
+display: flex;
+justify-content: center;
+align-content: center;
+margin: 0 auto;
+}
+.regresar{
+    text-align: center;
+    background: #0000008c;
+}

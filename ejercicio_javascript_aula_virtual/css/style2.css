@@ -1,0 +1,104 @@
+.form_auto{
+    margin: 4px auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.form_select{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.form_btn{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.cont_form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 285px;
+    border: 1px solid;
+}
+
+.btn{
+    margin: 2px 3px;
+    padding: 10px;
+    width: 126px;
+    font-size: 28px;
+    background-color: #0000ff75;
+}
+
+.btn_select{
+    margin: 2px 3px;
+    padding: 5px;
+    width: 100px;
+
+}
+
+.formularios{
+margin: 10px auto;
+}
+.contenedor{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    width: 50%;
+    text-align: center;
+}
+#cuenta{
+    display: none;
+    
+}
+#btn_nombre{
+    display: block;
+}
+
+#rectangulo{
+    border: 4px solid #673AB7;
+    margin: 50px auto;
+    box-shadow: 5px 6px 9px -5px #673AB7;
+    display: none;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+
+    transition:All 1s ease-out;
+-webkit-transition:All 1s ease-out;
+-moz-transition:All 1s ease-out;
+-o-transition:All 1s ease-out;
+transform: rotate(0deg) scale(1) skew(1deg) translate(5px);
+-webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(5px);
+-moz-transform: rotate(0deg) scale(1) skew(1deg) translate(5px);
+-o-transform: rotate(0deg) scale(1) skew(1deg) translate(5px);
+-ms-transform: rotate(0deg) scale(1) skew(1deg) translate(5px);
+}
+
+#rectangulo:hover{
+    transform: rotate(16deg) scale(0.791) skew(1deg) translate(0px);
+-webkit-transform: rotate(16deg) scale(0.791) skew(1deg) translate(0px);
+-moz-transform: rotate(16deg) scale(0.791) skew(1deg) translate(0px);
+-o-transform: rotate(16deg) scale(0.791) skew(1deg) translate(0px);
+-ms-transform: rotate(16deg) scale(0.791) skew(1deg) translate(0px);
+
+background-color: black;
+
+
+}
+
+#valor_calc{
+    margin: 10px auto;
+    display: none;
+}

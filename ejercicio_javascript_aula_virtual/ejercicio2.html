@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Ejercicio Cuenta Bancaria</title>
+</head>
+<body>
+<div class="contenedor">
+   <a href="ejercicio2.html"> <h1>Cuenta Bancaria</h1></a>
+    <div class="formularios">
+        <label for="nombre_cuenta">Nombre</label>
+        <input type="text" name="nombre_cuenta" id="nombre_cuenta">
+    </div>
+<div id="cuenta">
+        <div class="formularios">
+                <label for="valor_cuenta" class="ocultar">Monto</label>
+            <input type="number" name="valor_cuenta" id="valor_cuenta" class="ocultar">
+        </div>
+        <div class="formularios">
+            <input type="button" value="ingresar" class="ocultar btn" onclick="handleIngresar()">
+            <input type="button" value="extraer" class="ocultar btn" onclick="handleExtraer()">
+        </div>
+        <div class="formularios">
+            <input type="button" value="Ver Resumen de Cuenta" class="ocultar btn" onclick="handleMostrar()">   
+                <input type="button" value="Detalles de cuenta" class="ocultar btn" onclick="handleResumen()">   
+        </div>
+</div>
+    <div class="formularios" id="btn_nombre">
+            <input type="button" value="Ingresar_Nombre" class="btn" onclick="Ingresar_Nombre()">   
+               
+        </div>
+</div>
+    <script src="/js/ejercicio2_con_clse.js"></script>
+</body>
+</html>

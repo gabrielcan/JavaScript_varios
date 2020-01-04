@@ -1,0 +1,61 @@
+.form_auto{
+    margin: 4px auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.form_select{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.form_btn{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.cont_form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.btn{
+    margin: 2px 3px;
+    padding: 5px;  
+    width: 200px;
+}
+
+.btn_select{
+    margin: 2px 3px;
+    padding: 5px;
+    width: 73px;
+
+}
+
+.formularios{
+margin: 10px auto;
+}
+.contenedor{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    width: 50%;
+    text-align: center;
+}
+#cuenta{
+    display: none;
+    
+}
+#btn_nombre{
+    display: block;
+}

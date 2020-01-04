@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style2.css">
+    <title>Rectangulo</title>
+</head>
+<body>
+    <div class="cont_form">
+      <a href="#" onclick="barrer()">  <h1>Rectángulo</h1></a>
+
+        <div class="form_auto">
+            <label for="altura">Alto</label>
+            <input type="number" name="altura" id="altura" onchange="altura(),ver()">
+        </div>
+        <div class="form_auto">
+            <label for="ancho">Ancho</label>
+            <input type="number" name="ancho" id="ancho" onchange="base(),ver()">
+        </div>
+     
+     <div class="form_select">
+            <label for="select_Calcular">Calcular</label> 
+            <select name="encendido" id="select_Calcular" class="btn_select"> 
+                
+                <option value="0">Area</option>
+                <option value="1">Perimetro</option>
+        </select>       
+     </div>
+    
+     <div class="form_btn">
+         <input class="btn" type="button" value="Calcular" onclick="calculo()">
+     </div>
+     <label for="" id="valor_calc"></label>
+    </div>
+   
+
+    <div id="rectangulo"></div>
+    <script src="/js/ejercicio_Rectangulo.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.menu__cont_1{
+    margin: 20px;
+  
+}
+.menu__cont_2{
+    background-image: url(/img/menu__fondo.jpg);
+    height: 800px;
+    align-content: center;
+}
+
+.menu__btn{
+height: 50px;
+
+}
+
+.ejer__btn{
+    height: 50px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.input__num{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+}
+
+.label__input{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 20px;
+    background: #0000006b;
+}
+.img__logo{
+    background: transparent;
+}
+
+.cont__img{
+    left: 157px;
+    background: transparent;
+    position: absolute;
+    margin: 0 auto;
+}
